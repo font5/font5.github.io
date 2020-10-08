@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    background: yellow;
+    position: relative;
+}
+
+div {
+    max-width: 90%;
+    text-align: center;
+    padding: 7px;
+    margin: 10px 0;
+    border-radius: 12px;
+}
+
+#results {
+    background-color: gold;
+    max-width: 100%;
+    display: none;
+}
+
+textarea {
+    border-radius: 12px;
+    padding: 4px;
+    max-width: 90%;
+    font-size: larger;
+}
+
+#generate {
+    background-color: yellow;
+    border-radius: 12px;
+    height: 65px;
+    width: 80%;
+    box-shadow: gold 7px 7px;
+    font-family: 'Carter One', cursive;
+    font-size: medium;
+}
+
+button {
+    border-radius: 6px;
+}
+
+#nav {
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 45px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 10px;
+}
+
+#span {
+    font-family: 'Parisienne', cursive;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+::placeholder {
+    font-family: 'Concert One', cursive;
+}
+
+#footer {
+    background-color: yellowgreen;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    font-family: 'Carter One', cursive;
+}
+
+#footerFont {
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+
+
+@media screen and (min-width: 320px) {
+    #generate {
+        width: 250px;
+        font-size: x-large;
+    }
+}
+
+@media screen and (min-width: 470px) {
+    #generate {
+        width: 350px;
+        font-size: xx-large;
+    }
+
+    textarea {
+        width: 80%;
+    }
+}
