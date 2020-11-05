@@ -1,7 +1,5 @@
-body {
-    margin: 0;
-    background: yellow;
-    position: relative;
+*, *::after, *::before {
+    box-sizing: border-box;
 }
 
 div {
@@ -22,7 +20,7 @@ textarea {
     border-radius: 12px;
     padding: 4px;
     max-width: 90%;
-    font-size: larger;
+    font-size: x-large;
 }
 
 #generate {
@@ -35,16 +33,17 @@ textarea {
     font-size: medium;
 }
 
-button {
+#results button {
     border-radius: 6px;
+    font-size: large;
+    padding: 5px, 5px;
 }
 
-#nav {
+header {
     text-align: center;
     color: white;
-    background-color: black;
+    background-color: yellowgreen;
     width: 100%;
-    height: 45px;
     position: absolute;
     overflow: hidden;
     top: 0;
@@ -62,7 +61,7 @@ button {
     font-family: 'Concert One', cursive;
 }
 
-#footer {
+footer {
     background-color: yellowgreen;
     position: absolute;
     bottom: 0;
@@ -94,4 +93,44 @@ button {
     textarea {
         width: 80%;
     }
+}
+
+@media screen and (min-width: 600px) {
+    #body2 {
+        width: 600px;
+        box-shadow: black -10px 0 5px, black 10px 0 5px;
+    }
+}
+
+#shemdoe, #yaLeo {
+    font-family: 'Carter One', cursive;
+}
+
+#input0 {
+    transform: translateX(5%);
+}
+
+#body2 {
+    margin: 0 auto;
+    background: yellow;
+    position: relative;
+    border-radius: 24px;
+}
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }

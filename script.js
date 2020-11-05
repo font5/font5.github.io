@@ -117,21 +117,6 @@ function geneneration1() {
     answer7.value = replacing7;
 
 
-    var replacing8 = input1.replace(/A/g, "A̴").replace(/B/g, "̴B̴").replace(/C/g, "̴C̴")
-    .replace(/D/g, "̴D̴").replace(/E/g, "̴E̴").replace(/F/g, "̴F̴").replace(/G/g, "̴G̴").replace(/H/g, "̴H̴").replace(/I/g, "̴I̴")
-    .replace(/J/g, "̴J̴").replace(/K/g, "̴K̴").replace(/L/g, "̴L̴").replace(/M/g, "̴M̴").replace(/N/g, "̴N̴").replace(/O/g, "̴O̴")
-    .replace(/P/g, "̴P̴").replace(/Q/g, "̴Q̴").replace(/R/g, "̴R̴").replace(/S/g, "̴S̴").replace(/T/g, "̴T̴").replace(/U/g, "̴U̴")
-    .replace(/V/g, "̴V̴").replace(/W/g, "̴W̴").replace(/X/g, "̴X̴").replace(/Y/g, "̴Y̴").replace(/Z/g, "̴Z̴")
-    .replace(/a/g, "̴a̴").replace(/b/g, "̴b̴").replace(/c/g, "̴c̴").replace(/d/g, "̴d̴")
-    .replace(/e/g, "̴e̴").replace(/f/g, "̴f̴").replace(/g/g, "̴g̴").replace(/h/g, "̴h̴").replace(/i/g, "̴i̴").replace(/j/g, "̴j̴")
-    .replace(/k/g, "̴k̴").replace(/l/g, "̴l̴").replace(/m/g, "̴m̴").replace(/n/g, "̴n̴").replace(/o/g, "̴o̴").replace(/p/g, "̴p̴")
-    .replace(/q/g, "̴q̴").replace(/r/g, "̴r̴").replace(/s/g, "̴s̴").replace(/t/g, "̴t̴").replace(/u/g, "̴u̴").replace(/v/g, "̴v̴")
-    .replace(/w/g, "̴w̴").replace(/x/g, "̴x̴").replace(/y/g, "̴y̴").replace(/z/g, "̴z̴").replace(/1/g, "̴1̴").replace(/2/g, "̴2̴").replace(/3/g, "̴3̴")
-    .replace(/4/g, "̴4̴").replace(/5/g, "̴5̴").replace(/6/g, "̴6̴").replace(/7/g, "̴7̴").replace(/8/g, "̴8̴").replace(/9/g, "̴9̴").replace(/0/g, "̴0̴");
-
-    answer8.value = replacing8;
-
-
     var replacing9 = input1.replace(/A/g, "A͓̽").replace(/B/g, "B͓̽").replace(/C/g, "C͓̽")
     .replace(/D/g, "D͓̽").replace(/E/g, "E͓̽").replace(/F/g, "F͓̽").replace(/G/g, "G͓̽").replace(/H/g, "H͓̽").replace(/I/g, "I͓̽")
     .replace(/J/g, "J͓̽").replace(/K/g, "K͓̽").replace(/L/g, "L͓̽").replace(/M/g, "M͓̽").replace(/N/g, "N͓̽").replace(/O/g, "O͓̽")
@@ -228,17 +213,6 @@ document.getElementById('copy7').addEventListener('click', () => {
     answer.disabled = true;
 });
 
-document.getElementById('copy8').addEventListener('click', () => {
-    let answer = document.getElementById('x7');
-    answer.select();
-    answer.setSelectionRange(0, 9999999999999);
-    document.execCommand('copy');
-    let thisButton = document.getElementById('copy8');
-    thisButton.innerHTML = 'copied! to clipboard';
-    thisButton.style.backgroundColor = 'green';
-    answer.disabled = true;
-});
-
 
 document.getElementById('copy9').addEventListener('click', () => {
     let answer = document.getElementById('x8');
@@ -250,3 +224,15 @@ document.getElementById('copy9').addEventListener('click', () => {
     thisButton.style.backgroundColor = 'green';
     answer.disabled = true;
 });
+
+
+var tarehe = new Date();
+var mwaka = tarehe.getFullYear()
+var mwezi = tarehe.getMonth() + 1
+var leo = tarehe.getDate()
+var saa = tarehe.getHours()
+var dakika = tarehe.getMinutes()
+var sekunde = tarehe.getSeconds()
+
+
+document.getElementById('yaLeo').innerHTML = leo + "/"+ mwezi + "/" + mwaka
