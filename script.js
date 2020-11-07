@@ -16,7 +16,6 @@ function geneneration1() {
     var answer5 = document.getElementById('x4');
     var answer6 = document.getElementById('x5');
     var answer7 = document.getElementById('x6');
-    var answer8 = document.getElementById('x7');
     var answer9 = document.getElementById('x8');
     var replacing = input1.replace(/a/g, "𝖆").replace(/b/g, "𝖇").replace(/c/g, "𝖈").replace(/d/g, "𝖉")
     .replace(/e/g, "𝖊").replace(/f/g, "𝖋").replace(/g/g, "𝖌").replace(/h/g, "𝖍").replace(/i/g, "𝖎").replace(/j/g, "𝖏")
@@ -139,7 +138,7 @@ document.getElementById('copy1').addEventListener('click', () => {
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
     let thisButton = document.getElementById('copy1');
-    thisButton.innerHTML = 'copied! to clipboard';
+    thisButton.innerHTML = 'copied! to clipboard ✔';
     thisButton.style.backgroundColor = 'green';
     answer.disabled = true;
 });
@@ -150,7 +149,7 @@ document.getElementById('copy2').addEventListener('click', () => {
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
     let thisButton = document.getElementById('copy2');
-    thisButton.innerHTML = 'copied! to clipboard';
+    thisButton.innerHTML = 'copied! to clipboard ✔';
     thisButton.style.backgroundColor = 'green';
     answer.disabled = true;
 });
@@ -162,7 +161,7 @@ document.getElementById('copy3').addEventListener('click', () => {
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
     let thisButton = document.getElementById('copy3');
-    thisButton.innerHTML = 'copied! to clipboard';
+    thisButton.innerHTML = 'copied! to clipboard ✔';
     thisButton.style.backgroundColor = 'green';
     answer.disabled = true;
 });
@@ -174,7 +173,7 @@ document.getElementById('copy4').addEventListener('click', () => {
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
     let thisButton = document.getElementById('copy4');
-    thisButton.innerHTML = 'copied! to clipboard';
+    thisButton.innerHTML = 'copied! to clipboard ✔';
     thisButton.style.backgroundColor = 'green';
     answer.disabled = true;
 });
@@ -186,7 +185,7 @@ document.getElementById('copy5').addEventListener('click', () => {
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
     let thisButton = document.getElementById('copy5');
-    thisButton.innerHTML = 'copied! to clipboard';
+    thisButton.innerHTML = 'copied! to clipboard ✔';
     thisButton.style.backgroundColor = 'green';
     answer.disabled = true;
 });
@@ -197,7 +196,7 @@ document.getElementById('copy6').addEventListener('click', () => {
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
     let thisButton = document.getElementById('copy6');
-    thisButton.innerHTML = 'copied! to clipboard';
+    thisButton.innerHTML = 'copied! to clipboard ✔';
     thisButton.style.backgroundColor = 'green';
     answer.disabled = true;
 });
@@ -208,7 +207,7 @@ document.getElementById('copy7').addEventListener('click', () => {
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
     let thisButton = document.getElementById('copy7');
-    thisButton.innerHTML = 'copied! to clipboard';
+    thisButton.innerHTML = 'copied! to clipboard ✔';
     thisButton.style.backgroundColor = 'green';
     answer.disabled = true;
 });
@@ -220,7 +219,7 @@ document.getElementById('copy9').addEventListener('click', () => {
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
     let thisButton = document.getElementById('copy9');
-    thisButton.innerHTML = 'copied! to clipboard';
+    thisButton.innerHTML = 'copied! to clipboard ✔';
     thisButton.style.backgroundColor = 'green';
     answer.disabled = true;
 });

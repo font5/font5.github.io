@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@600&family=Lobster&family=Marck+Script&family=Shadows+Into+Light&display=swap');
+
 *, *::after, *::before {
     box-sizing: border-box;
 }
@@ -16,10 +18,19 @@ div {
     display: none;
 }
 
+#results div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 textarea {
     border-radius: 12px;
     padding: 4px;
-    max-width: 90%;
+    width: 90%;
     font-size: x-large;
 }
 
@@ -36,7 +47,8 @@ textarea {
 #results button {
     border-radius: 6px;
     font-size: large;
-    padding: 5px, 5px;
+    padding: 5px 5px;
+    margin-top: 2px;
 }
 
 header {
@@ -51,14 +63,35 @@ header {
     padding-top: 10px;
 }
 
-#span {
-    font-family: 'Parisienne', cursive;
+#main-span {
+    font-family: 'Marck Script', cursive;
     font-weight: bolder;
     font-size: larger;
 }
 
+#insta {
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+#wa {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#fb {
+    font-family: 'Lobster', cursive;
+    font-weight: normal;
+}
+
+#tg {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#tt {
+    font-family: 'Parisienne', cursive;
+}
+
 ::placeholder {
-    font-family: 'Concert One', cursive;
+    font-family: 'Marck Script', cursive;
 }
 
 footer {
@@ -107,7 +140,12 @@ footer {
 }
 
 #input0 {
-    transform: translateX(5%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: left;
 }
 
 #body2 {
