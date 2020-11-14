@@ -137,10 +137,7 @@ document.getElementById('copy1').addEventListener('click', () => {
     answer.select();
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
-    let thisButton = document.getElementById('copy1');
-    thisButton.innerHTML = 'copied! to clipboard ✔';
-    thisButton.style.backgroundColor = 'green';
-    answer.disabled = true;
+    alert('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
 });
 
 document.getElementById('copy2').addEventListener('click', () => {
@@ -148,10 +145,7 @@ document.getElementById('copy2').addEventListener('click', () => {
     answer.select();
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
-    let thisButton = document.getElementById('copy2');
-    thisButton.innerHTML = 'copied! to clipboard ✔';
-    thisButton.style.backgroundColor = 'green';
-    answer.disabled = true;
+    alert('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
 });
 
 
@@ -160,10 +154,7 @@ document.getElementById('copy3').addEventListener('click', () => {
     answer.select();
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
-    let thisButton = document.getElementById('copy3');
-    thisButton.innerHTML = 'copied! to clipboard ✔';
-    thisButton.style.backgroundColor = 'green';
-    answer.disabled = true;
+    alert('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
 });
 
 
@@ -172,10 +163,7 @@ document.getElementById('copy4').addEventListener('click', () => {
     answer.select();
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
-    let thisButton = document.getElementById('copy4');
-    thisButton.innerHTML = 'copied! to clipboard ✔';
-    thisButton.style.backgroundColor = 'green';
-    answer.disabled = true;
+    alert('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
 });
 
 
@@ -184,10 +172,7 @@ document.getElementById('copy5').addEventListener('click', () => {
     answer.select();
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
-    let thisButton = document.getElementById('copy5');
-    thisButton.innerHTML = 'copied! to clipboard ✔';
-    thisButton.style.backgroundColor = 'green';
-    answer.disabled = true;
+    alert('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
 });
 
 document.getElementById('copy6').addEventListener('click', () => {
@@ -195,10 +180,7 @@ document.getElementById('copy6').addEventListener('click', () => {
     answer.select();
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
-    let thisButton = document.getElementById('copy6');
-    thisButton.innerHTML = 'copied! to clipboard ✔';
-    thisButton.style.backgroundColor = 'green';
-    answer.disabled = true;
+    alert('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
 });
 
 document.getElementById('copy7').addEventListener('click', () => {
@@ -206,10 +188,7 @@ document.getElementById('copy7').addEventListener('click', () => {
     answer.select();
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
-    let thisButton = document.getElementById('copy7');
-    thisButton.innerHTML = 'copied! to clipboard ✔';
-    thisButton.style.backgroundColor = 'green';
-    answer.disabled = true;
+    alert('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
 });
 
 
@@ -218,10 +197,7 @@ document.getElementById('copy9').addEventListener('click', () => {
     answer.select();
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
-    let thisButton = document.getElementById('copy9');
-    thisButton.innerHTML = 'copied! to clipboard ✔';
-    thisButton.style.backgroundColor = 'green';
-    answer.disabled = true;
+    alert('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
 });
 
 

@@ -51,16 +51,25 @@ textarea {
     margin-top: 2px;
 }
 
+#results button:active {
+    background-color: green;
+}
+
 header {
     text-align: center;
     color: white;
     background-color: yellowgreen;
     width: 100%;
+    height: fit-content;
+    padding: 10px 0px;
     position: absolute;
     overflow: hidden;
     top: 0;
     font-family: 'Press Start 2P', cursive;
-    padding-top: 10px;
+}
+
+header #styled {
+    font-size: larger;
 }
 
 #main-span {
