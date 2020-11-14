@@ -262,14 +262,14 @@ function showing6() {
     }, 2000)
 }
 
-function showing1() {
+function showing7() {
     let ctc = document.getElementById('ctc7')
     setTimeout(() => {
         ctc.style.display = 'none'
     }, 2000)
 }
 
-function showing1() {
+function showing8() {
     let ctc = document.getElementById('ctc8')
     setTimeout(() => {
         ctc.style.display = 'none'
