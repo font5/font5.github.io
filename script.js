@@ -137,7 +137,7 @@ document.getElementById('copy1').addEventListener('click', () => {
     answer.select();
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
-    alert('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
+    confirm('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
 });
 
 document.getElementById('copy2').addEventListener('click', () => {
@@ -145,7 +145,7 @@ document.getElementById('copy2').addEventListener('click', () => {
     answer.select();
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
-    alert('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
+    confirm('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
 });
 
 
@@ -154,7 +154,7 @@ document.getElementById('copy3').addEventListener('click', () => {
     answer.select();
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
-    alert('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
+    confirm('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
 });
 
 
@@ -163,7 +163,7 @@ document.getElementById('copy4').addEventListener('click', () => {
     answer.select();
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
-    alert('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
+    confirm('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
 });
 
 
@@ -172,7 +172,7 @@ document.getElementById('copy5').addEventListener('click', () => {
     answer.select();
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
-    alert('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
+    confirm('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
 });
 
 document.getElementById('copy6').addEventListener('click', () => {
@@ -180,7 +180,7 @@ document.getElementById('copy6').addEventListener('click', () => {
     answer.select();
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
-    alert('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
+    confirm('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
 });
 
 document.getElementById('copy7').addEventListener('click', () => {
@@ -188,7 +188,7 @@ document.getElementById('copy7').addEventListener('click', () => {
     answer.select();
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
-    alert('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
+    confirm('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
 });
 
 
@@ -197,7 +197,7 @@ document.getElementById('copy9').addEventListener('click', () => {
     answer.select();
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
-    alert('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
+    confirm('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
 });
 
 
