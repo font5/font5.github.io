@@ -137,67 +137,75 @@ document.getElementById('copy1').addEventListener('click', () => {
     answer.select();
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
-    confirm('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
+    document.getElementById('ctc1').style.display = 'block'
+    showing1();
 });
 
 document.getElementById('copy2').addEventListener('click', () => {
     let answer = document.getElementById('rnchrs');
+    document.getElementById('ctc2').style.display = 'block'
     answer.select();
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
-    confirm('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
+    showing2();
 });
 
 
 document.getElementById('copy3').addEventListener('click', () => {
     let answer = document.getElementById('x2');
+    document.getElementById('ctc3').style.display = 'block'
     answer.select();
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
-    confirm('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
+    showing3();
 });
 
 
 document.getElementById('copy4').addEventListener('click', () => {
     let answer = document.getElementById('x3');
+    document.getElementById('ctc4').style.display = 'block'
     answer.select();
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
-    confirm('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
+    showing4();
 });
 
 
 document.getElementById('copy5').addEventListener('click', () => {
     let answer = document.getElementById('x4');
+    document.getElementById('ctc5').style.display = 'block'
     answer.select();
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
-    confirm('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
+    showing5();
 });
 
 document.getElementById('copy6').addEventListener('click', () => {
     let answer = document.getElementById('x5');
+    document.getElementById('ctc6').style.display = 'block'
     answer.select();
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
-    confirm('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
+    showing6();
 });
 
 document.getElementById('copy7').addEventListener('click', () => {
     let answer = document.getElementById('x6');
+    document.getElementById('ctc7').style.display = 'block'
     answer.select();
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
-    confirm('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
+    showing7();
 });
 
 
 document.getElementById('copy9').addEventListener('click', () => {
     let answer = document.getElementById('x8');
+    document.getElementById('ctc8').style.display = 'block'
     answer.select();
     answer.setSelectionRange(0, 9999999999999);
     document.execCommand('copy');
-    confirm('Your fancy text is Copied to Clipboard ✔. Go and Paste it to your favourite Social Media Platform.')
+    showing8();
 });
 
 
@@ -210,4 +218,60 @@ var dakika = tarehe.getMinutes()
 var sekunde = tarehe.getSeconds()
 
 
-document.getElementById('yaLeo').innerHTML = leo + "/"+ mwezi + "/" + mwaka
+document.getElementById('yaLeo').innerHTML = leo + "/" + mwezi + "/" + mwaka
+
+function showing1() {
+    let ctc = document.getElementById('ctc1')
+    setTimeout(() => {
+        ctc.style.display = 'none';
+    }, 2000)
+}
+
+function showing2() {
+    let ctc = document.getElementById('ctc2')
+    setTimeout(() => {
+        ctc.style.display = 'none'
+    }, 2000)
+}
+
+function showing3() {
+    let ctc = document.getElementById('ctc3')
+    setTimeout(() => {
+        ctc.style.display = 'none'
+    }, 2000)
+}
+
+function showing4() {
+    let ctc = document.getElementById('ctc4')
+    setTimeout(() => {
+        ctc.style.display = 'none'
+    }, 2000)
+}
+
+function showing5() {
+    let ctc = document.getElementById('ctc5')
+    setTimeout(() => {
+        ctc.style.display = 'none'
+    }, 2000)
+}
+
+function showing6() {
+    let ctc = document.getElementById('ctc6')
+    setTimeout(() => {
+        ctc.style.display = 'none'
+    }, 2000)
+}
+
+function showing1() {
+    let ctc = document.getElementById('ctc7')
+    setTimeout(() => {
+        ctc.style.display = 'none'
+    }, 2000)
+}
+
+function showing1() {
+    let ctc = document.getElementById('ctc8')
+    setTimeout(() => {
+        ctc.style.display = 'none'
+    }, 2000)
+}
